@@ -8,4 +8,11 @@
     <color name="app_bar_color">#FF5722</color>
     <color name="status_bar_color_dark">#8BC34A</color>
     <color name="app_bar_color_dark">#009688</color>
+
+    <color name="bg">#C59B8E</color>
+    <color name="status_bg">#C7A99F</color>
+
+    <color name="dark_bg">#46332D</color>
+    <color name="dark_status_bg">#463B38</color>
+    <color name="button_color">#583227</color>
 </resources>

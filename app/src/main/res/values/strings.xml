@@ -8,4 +8,6 @@
     <string name="subtract">-</string>
     <string name="divide">/</string>
     <string name="multiply">*</string>
+    <string name="calculate">Let\'s Find the Value</string>
+    <string name="calculated">Lets Find the Value</string>
 </resources>

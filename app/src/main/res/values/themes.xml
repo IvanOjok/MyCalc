@@ -15,4 +15,12 @@
         <item name="colorPrimaryDark">@color/status_bar_color</item>
     </style>
 
+    <style name="Review" parent="Theme.MaterialComponents.DayNight">
+        <item name="backgroundColor">@color/bg</item>
+        <item name="background">@color/bg</item>
+        <item name="colorPrimary">@color/bg</item>
+        <item name="colorPrimaryDark">@color/status_bg</item>
+    </style>
+
+
 </resources>
