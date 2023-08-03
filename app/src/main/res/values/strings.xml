@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyCalc</string>
+    <string name="app_name">Calculator</string>
     <string name="calc">Calculator</string>
     <string name="enter_first_number">Enter first Number</string>
     <string name="enter_second_number">Enter second Number</string>
