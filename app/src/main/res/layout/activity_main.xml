@@ -35,7 +35,7 @@
         android:hint="@string/enter_second_number"
         android:inputType="number"
         app:layout_constraintTop_toBottomOf="@+id/first_number"
-         />
+        tools:layout_editor_absoluteX="20dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"

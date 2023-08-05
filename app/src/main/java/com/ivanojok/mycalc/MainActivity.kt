@@ -6,16 +6,22 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
+import com.ivanojok.mycalc.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        val binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
 
         /** image view */
-        val image = findViewById<ImageView>(R.id.my_image)
+        //val image = findViewById<ImageView>(R.id.my_image)
+        val image = binding.myImage
         /** edit texts */
-        val firstNumberEditText = findViewById<EditText>(R.id.first_number)
+        //val firstNumberEditText = findViewById<EditText>(R.id.first_number)
+        val firstNumberEditText = binding.firstNumber
         val secondNumberEditText:EditText = findViewById(R.id.second_number)
 
         /** buttons */
